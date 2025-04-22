@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name         SOOP 밴허브에서 보기
+// @namespace    https://www.sooplive.co.kr/
+// @version      1.0
+// @description  SOOP 채팅창에서 아이디를 누르면 밴허브 검색 메뉴를 추가합니다.
+// @match        https://play.sooplive.co.kr/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=play.sooplive.co.kr
+// @grant        none
+// @license MIT
+// ==/UserScript==
+
+!function(){"use strict";new MutationObserver((e=>{e.forEach((e=>{e.addedNodes.length&&e.addedNodes.forEach((e=>{1===e.nodeType&&e.classList.contains("chatIct-card")&&function(e){let t=e.getAttribute("user_id");t=t.replace(/\(\d+\)/g,"");const n=e.querySelector(".menu-list");if(n){const e=document.createElement("button");e.type="button",e.id="copyUserId",e.textContent="밴허브에서 보기",e.addEventListener("click",(()=>{const e="https://banhub.xyz/soop/user/"+t;window.open(e,"_blank")}));const o=document.createElement("li");o.appendChild(e),n.insertBefore(o,n.firstChild)}}(e)}))}))})).observe(document.body,{childList:!0,subtree:!0})}();
