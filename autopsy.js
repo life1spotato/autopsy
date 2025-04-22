@@ -6,6 +6,8 @@
 // @match        https://play.sooplive.co.kr/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=play.sooplive.co.kr
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/life1spotato/autopsy/refs/heads/main/autopsy.js
+// @downloadURL  https://raw.githubusercontent.com/life1spotato/autopsy/refs/heads/main/autopsy.js
 // @license MIT
 // ==/UserScript==
 
