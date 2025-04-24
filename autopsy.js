@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SOOP 밴허브 정보 출력
 // @namespace    https://www.sooplive.co.kr/
-// @version      1.0
+// @version      1.1
 // @description  유저 팝업에 밴허브 제재 정보 표시 및 바로가기 버튼 추가
 // @match        https://play.sooplive.co.kr/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=play.sooplive.co.kr
