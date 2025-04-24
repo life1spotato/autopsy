@@ -7,7 +7,7 @@
 4. 'Hello world' 템플릿 선택
 5. '배포' 선택
 6. '코드 편집' 선택
-7. 다음의 소스로 교체 후 배포, 스크립트의 URL 교체
+7. 다음의 소스로 교체 후 배포, autopsy.js 스크립트의 URL 교체
 ```javascript
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
